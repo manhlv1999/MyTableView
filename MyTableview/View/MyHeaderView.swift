@@ -11,6 +11,13 @@ class MyHeaderView: UITableViewHeaderFooterView {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
+    var nameLabels: UILabel = {
+        var label = UILabel()
+        label.text = "Rainie"
+        label.font = .boldSystemFont(ofSize: 30)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
     var image: UIImageView = {
         var imageview = UIImageView()
         imageview.layer.cornerRadius = 5
